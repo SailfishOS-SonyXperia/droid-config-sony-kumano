@@ -3,7 +3,7 @@
 
 %define device_pretty Xperia 1 - Dual SIM
 
-%define pixel_ratio 2.0
+%define pixel_ratio 2.5
 
 %include droid-config-common.inc
 %include droid-configs-device/droid-configs.inc
