@@ -117,7 +117,7 @@ elif [ "@DEVICEMODEL@" = "j8110" ]; then
   sed -e "s/\@DEVICES\@/:: J8110/g" -i flash-on-windows.bat
 elif [ "@DEVICEMODEL@" = "j9210" ]; then
   sed -e "s/\@VALID_PRODUCTS\@/\"J9210\"/g" -i flash-config.sh
-  sed -e "s/\@DEVICES\@/:: j9210/g" -i flash-on-windows.bat
+  sed -e "s/\@DEVICES\@/:: J9210/g" -i flash-on-windows.bat
 elif [ "@DEVICEMODEL@" = "j8210" ]; then
   sed -e "s/\@VALID_PRODUCTS\@/\"J8210\"/g" -i flash-config.sh
   sed -e "s/\@DEVICES\@/:: J8210/g" -i flash-on-windows.bat
